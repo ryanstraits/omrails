@@ -1,13 +1,14 @@
 <% if user_signed_in? %>
- 	<h1>You're Logged In!</h1>
+ 	<h1>You're Logged In To The 6th Degree!</h1>
 <% else %>
 	<div class="hero-unit">
-		<h1>Welcome to One Month Rails!</h1>
+		<h1>Welcome to The 6th Degree!</h1>
+		<br>
 		<p>
-			You've found the home page for the
-			<%= link_to "One Month Rails", "http://onemonthrails.com" %>
-			application.
+			You've found the <i>new</i> home page for The 6th Degree, <b>YOUR</b> very own hyper-local parody news site.
+			<br>We're not quite ready to go live just yet, but be sure to sign up below to stay informed on our progress!
 		</p>
+		<br>
 		<p>
 			<%= link_to "Sign Up Now!", new_user_registration_path, class: " btn btn-primary btn-large" %>
 		</p> 
