@@ -1,4 +1,4 @@
-# One Month Rails
+# The 6th Degree
 
 This is the sample application for
 [*One Month Rails: Teach Yourself to Code*](http://onemonthrails.com)
